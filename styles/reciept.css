@@ -1,0 +1,90 @@
+body{
+	background-color:rgba(0,0,0,0);
+	margin:0px;
+}
+
+@font-face{
+  font-family:'OpenSans-Bold';
+  src:url('FONTZ/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face{
+  font-family:'Kurale-Regular';
+  src:url('FONTZ/Kurale/Kurale-Regular.ttf');
+}
+
+.resize{
+	width:20px;
+	height:20px;
+}
+
+table{
+	margin-top:10%;
+	margin-left:10%;
+	/*border:none;*/
+}
+
+.businessname{
+	font-family:'OpenSans-Bold';
+	text-transform:uppercase;
+	font-size:25px;
+	text-align:left;
+}
+
+.company-details{
+	padding:40px;
+}
+
+.address{
+	font-family:'Kurale-Regular';
+	font-variant:small-caps;
+	font-size:20px;
+}
+
+.phone{
+	font-family:'Kurale-Regular';
+	font-size:15px;
+}
+
+.id{
+	font-family:'Kurale-Regular';
+	font-variant:small-caps;
+	font-size:20px;
+}
+
+.date{
+	font-family:'Kurale-Regular';
+	font-variant:small-caps;
+	font-size:20px;
+}
+
+.receipt-essential{
+	text-align:right;
+	padding:30px;
+}
+
+.header{
+	text-align:center;
+	text-transform:uppercase;
+	font-family:'OpenSans-Bold';
+}
+
+.padding{
+	padding:15px;
+}
+
+.content-padding{
+	padding:40px;
+	text-align:left;
+}
+
+#receipt-content{
+	font-family:'OpenSans-Bold';
+}
+
+p{
+	margin-top:5%;
+	/*margin-left:2%;*/
+	font-family:'Kurale-Regular';
+	font-size:20px;
+}
